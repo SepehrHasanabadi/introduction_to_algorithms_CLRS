@@ -1,4 +1,5 @@
 import math
+
 def merge_sort(input_list, index_origin=0, index_end=None):
 	if index_end is None:
 		index_end = len(input_list) - 1
